@@ -1,0 +1,17 @@
+'''
+@Author: Nikita
+@Date: 2022-04-21 14: 17: 00
+@Last Modified by: Nikita
+@Last Modified time: 2022-04-19 14:17:00
+@Title:Write a Python program to create array and display elements of array using index.
+'''
+from array import *
+
+if __name__=="__main__":
+    arr=array("i",[1,5,6,8,9])
+    print("elements of array are: ")
+    print(arr[0])
+    print(arr[1])
+    print(arr[2])
+    print(arr[3])
+    print(arr[4])
